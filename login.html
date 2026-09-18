@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login & Sign Up Page</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="tabs">
+            <button id="loginTab" class="active">Login</button>
+            <button id="signupTab" class="active">Sign Up</button>
+            <div class="indicator" id="indicator"></div>
+        </div>
+
+        <form id="loginForm" class="active">
+            <div class="input-group">
+                <label>Email</label>
+                <input type="email" required/>
+            </div>
+
+            <div class="input-group">
+                <label>Password</label>
+                <input type="password" required >
+            </div>
+
+            <button class="btn">Login</button>
+            <div class="text">Don't have an account? Sign up</div>
+        </form>
+
+            <form id="signupForm">
+        <div class="input-group">
+            <label>Username</label>
+            <input type="text" required/>
+        </div>
+
+        <div class="input-group">
+            <label>Email</label>
+            <input type="email" required/>
+        </div>
+
+        <div class="input-group">
+            <label>Password</label>
+            <input type="password" required/>
+        </div>
+
+        <button class="btn">Sign Up</button>
+        <div class="text">Already have an account? Login</div>
+    </form>
+</div>
+<script src="login.js"></script> 
+</body>
+</html>
